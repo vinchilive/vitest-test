@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": false,
+    "moduleResolution": "Node",
+    "strict": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ESNext", "dom", "dom.iterable"]
+  },
+
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
